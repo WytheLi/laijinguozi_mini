@@ -1,1 +1,17 @@
 /* pages/cart/cart.wxss */
+.container_scroll_view {
+    width: 100px;
+    height: 600px;
+    background-color: #f4f4f4;
+}
+
+.container_scroll_view view {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.container_scroll_view view:nth-child(1) {
+  height: 30px;
+  text-align: center;
+}

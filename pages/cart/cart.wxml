@@ -1,2 +1,13 @@
 <!--pages/cart/cart.wxml-->
-<text>pages/cart/cart.wxml</text>
+<!-- scroll-y: 允许在Y轴上滚动 -->
+<scroll-view class="container_scroll_view" scroll-y>
+  <view>热销爆品</view>
+  <view>当季鲜果</view>
+  <view>进口水果</view>
+  <view>进口零食</view>
+  <view>柑橘橙柚</view>
+  <view>葡提梅榴</view>
+  <view>网红零食</view>
+  <view>早餐代食</view>
+  <view>拼盘礼盒</view>
+</scroll-view>
