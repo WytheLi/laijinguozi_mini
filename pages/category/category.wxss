@@ -1,1 +1,18 @@
 /* pages/category/category.wxss */
+.container_table_box image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.table_box_row1 {
+  margin: 20px 0 20px 0;
+  display: flex;        /* 横向布局 */
+  justify-content: space-around;  /* 分散布局 */
+}
+
+.table_box_row2 {
+  margin: 20px 0 20px 0;
+  display: flex;        /* 横向布局 */
+  justify-content: space-around;  /* 分散布局 */
+}

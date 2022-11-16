@@ -1,2 +1,32 @@
 <!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<!-- table box -->
+<view class="container_table_box">
+  <view class="table_box_row1">
+    <view class="box1">
+      <image src="../../images/index/哈密瓜.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box2">
+      <image src="../../images/index/山竹.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box3">
+      <image src="../../images/index/橙子.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box4">
+      <image src="../../images/index/火龙果.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+  </view>
+  <view class="table_box_row2">
+    <view class="box5">
+      <image src="../../images/index/牛油果.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box6">
+      <image src="../../images/index/猕猴桃.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box7">
+      <image src="../../images/index/百香果.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+    <view class="box8">
+      <image src="../../images/index/石榴.svg" mode="" bindtap="getFruitsByCategory"/>
+    </view>
+  </view>
+</view>

@@ -1,2 +1,14 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view class="container">
+  <view class="container_search">
+    <view class="search_bar_form">
+      <!-- 搜索框 -->
+      <view class="search_bar_box">
+        <icon type="search_icon" type="search" size="14"/>
+        <input type="text" class="search_textbox" placeholder="请输入搜索内容"/>
+      </view>
+      <!-- 搜索按钮 -->
+      <view class="search_button" bindtap="search">搜索</view>
+    </view>
+  </view>
+</view>
