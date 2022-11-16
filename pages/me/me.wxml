@@ -1,2 +1,15 @@
 <!--pages/me/me.wxml-->
 <text>pages/me/me.wxml</text>
+<!-- <view class="container"> -->
+  <swiper class="container_swiper" indicator-dots>
+    <swiper-item>
+      <view class="item" bindtap="getFruitsByDiscounts">A</view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item" bindtap="getFruitsByDiscounts">B</view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item" bindtap="getFruitsByDiscounts">C</view>
+    </swiper-item>
+  </swiper>
+<!-- </view> -->

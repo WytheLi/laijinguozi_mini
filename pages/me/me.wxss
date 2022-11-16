@@ -1,1 +1,24 @@
 /* pages/me/me.wxss */
+
+.container_swiper {
+  height: 120px;
+  padding: 20px;
+  border-radius: 20%;
+}
+
+.item {
+  height: 100%;
+  text-align: center;
+}
+
+swiper-item:nth-child(1) .item {
+  background-color: lightgreen;
+}
+
+swiper-item:nth-child(2) .item {
+  background-color: lightskyblue;
+}
+
+swiper-item:nth-child(3) .item {
+  background-color: lightcoral;
+}

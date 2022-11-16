@@ -1,5 +1,9 @@
 // pages/me/me.js
 Page({
+  
+  getFruitsByDiscounts(){
+    console.log('获取特价商品');
+  },
 
   /**
    * 页面的初始数据
