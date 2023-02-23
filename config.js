@@ -1,9 +1,11 @@
 // var host = "http://localhost";
 var host = "https://www.escook.cn";
 var config={
+  host,
   loginUrl: host + "/api/login",
   // getswiperList: host + "/api/getswiperList",
-  getswiperList: host + "/slides"
+  getSwiperList: host + "/slides",
+  getGridList: host + "/categories"
 }
 
 // 输出配置
