@@ -1,7 +1,7 @@
 <!--pages/me/me.wxml-->
 <text>pages/me/me.wxml</text>
 <!-- <view class="container"> -->
-  <swiper class="container_swiper" indicator-dots>
+  <swiper class="container_swiper" indicator-dots indicator-color="white" circular>
     <swiper-item>
       <view class="item" bindtap="getFruitsByDiscounts">A</view>
     </swiper-item>

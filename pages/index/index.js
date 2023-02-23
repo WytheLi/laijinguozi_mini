@@ -1,18 +1,37 @@
 // pages/index/index.js
+var config = require('../../config.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    // 存放轮播图数据的数组
+    swiperList: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.getSwiperList()
 
+  },
+
+  // 获取轮播图数据的方法
+  getSwiperList () {
+    wx.request({
+      url: config.getswiperList,
+      method: "GET",
+      success: (res) => {
+        console.log(res.data);
+        // [{"id": 1, "image": "https://1.jpg", "link": "/pages/list/list?cat=10"}, ]
+        this.setData({
+          swiperList: res.data
+        })
+      }
+    })
   },
 
   /**
