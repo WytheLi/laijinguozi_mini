@@ -24,6 +24,11 @@
     </view>
   </view>
 
-  <!-- 图片专区版本 -->
+  <!-- 图片专区栏 -->
+  <view class="img-box">
+    <!-- widthFix:  -->
+    <image src="/images/index/pointsCard.jpg" mode="widthFix"/>
+    <image src="/images/index/pointsCard.jpg" mode="widthFix"/>
+  </view>
 </view>
 

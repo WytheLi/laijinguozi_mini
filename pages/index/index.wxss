@@ -1,3 +1,4 @@
+/* 轮播图 */
 swiper {
   height: 350rpx;
   width: 100%;
@@ -8,6 +9,7 @@ swiper image {
   height: 100%;
 }
 
+/* 九宫格 */
 .grid-list {
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +38,19 @@ swiper image {
 .grid-item text {
   font-size: 24rpx;
 }
+
+/* 图片专区栏 */
+.img-box {
+  display: flex;
+  padding: 20rpx 10rpx;
+  justify-content: space-around;  /* 简单理解每个元素左右间距相等，行距均匀排列 */
+}
+
+.img-box image {
+  width: 45%;
+}
+
+
 
 /* 搜索 */
 .search-box {
