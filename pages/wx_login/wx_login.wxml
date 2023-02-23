@@ -1,0 +1,8 @@
+<!--pages/wx_login/wx_login.wxml-->
+<view class="container">
+  <view class="login">
+    <button type="primary" bindtap="wxLogin">微信用户一键登录</button>
+    <!-- 跳转到手机登录页面 -->
+    <button type="default">手机号登录/注册</button>
+  </view>
+</view>

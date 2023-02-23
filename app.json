@@ -4,7 +4,8 @@
     "pages/category/category",
     "pages/cart/cart",
     "pages/me/me",
-    "pages/login/login"
+    "pages/wx_login/wx_login",
+    "pages/phone_login/phone_login"
   ],
   "window": {
     "backgroundTextStyle": "dark",
