@@ -11,8 +11,7 @@
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#ff3861",
     "navigationBarTitleText": "来斤果子",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#e50012",

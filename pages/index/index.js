@@ -11,6 +11,7 @@ Page({
     swiperList: [],
     // 导航栏
     tableBox: [],
+    tableBox: [],
     // 商品宫格
     gridList: []
   },
@@ -19,9 +20,49 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.getTableBox(),
     this.getSwiperList(),
     this.getGridList()
 
+  },
+
+  // 获取某个类别的水果列表
+  getFruitsByCategory () {
+    
+  },
+
+  // table栏
+  getTableBox () {
+    let tableBox = [
+      {
+         "id": 1,
+         "icon": "../../images/index/哈密瓜.svg",
+         "name": "西瓜/蜜瓜"
+      },
+      {
+        "id": 2,
+        "icon": "../../images/index/山竹.svg",
+        "name": "山竹/火龙果"
+      },
+      {
+        "id": 3,
+        "icon": "../../images/index/橙子.svg",
+        "name": "柑橘橙柚"
+      },
+      {
+        "id": 4,
+        "icon": "../../images/index/火龙果.svg",
+        "name": "葡提梅果"
+      },
+      {
+        "id": 5,
+        "icon": "../../images/index/猕猴桃.svg",
+        "name": "苹果蕉梨"
+      },
+    ]
+    this.setData({
+      tableBox: tableBox
+    })
   },
 
   // 获取轮播图数据的方法

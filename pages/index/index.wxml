@@ -17,6 +17,15 @@
   </swiper>
 
   <!-- table栏 -->
+  <view class="table-box">
+    <view class="box-item" wx:for="{{ tableBox }}" wx:key="id" bindtap="getFruitsByCategory">
+      <image src="{{ item.icon }}" mode=""/>
+      <text>{{ item.name }}</text>
+    </view>
+    
+  </view>
+
+  <!-- table栏 -->
   <view class="grid-list">
     <view class="grid-item" wx:for="{{ gridList }}" wx:key="id">
       <image src="{{ item.icon }}" mode=""/>
