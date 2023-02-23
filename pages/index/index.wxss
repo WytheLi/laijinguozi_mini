@@ -1,5 +1,6 @@
 swiper {
   height: 350rpx;
+  width: 100%;
 }
 
 swiper image {
@@ -10,6 +11,8 @@ swiper image {
 .grid-list {
   display: flex;
   flex-wrap: wrap;
+  border-left: 1rpx solid #efefef;
+  border-top: 1rpx solid #efefef;
 }
 
 .grid-item {
@@ -32,4 +35,49 @@ swiper image {
 
 .grid-item text {
   font-size: 24rpx;
+}
+
+/* 搜索 */
+.search-box {
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-context {
+  width: 690rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background: rgba(240, 240, 240, .85);
+  color: #969696;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  width: 31rpx;
+  height: 29rpx;
+  position: -2rpx;
+  position: absolute;
+}
+
+.search-text-wrap {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.search-icon-wrap {
+  margin: 0 20rpx 0 24rpx;
+  width: 31rpx;
+  height: 29rpx;
+  position: relative;
 }
